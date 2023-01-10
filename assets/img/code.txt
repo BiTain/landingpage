@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: rgb(57, 49, 49);
+        }
+
+        .light-bulb-wrapper {
+            padding: 30px;
+            background-color: #fff;
+        }
+
+        .light-bulb-wrapper i {
+            font-size: 70px;
+            padding: 30px;
+        }
+
+        .red {
+            color: red;
+        }
+
+        .blue {
+            color: blue;
+        }
+
+        .yellow {
+            color: yellow;
+        }
+
+        .green {
+            color: green;
+        }
+
+        .pink {
+            color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="light-bulb-wrapper">
+        <i class="fa-solid fa-lightbulb"></i>
+        <i class="fa-solid fa-lightbulb"></i>
+        <i class="fa-solid fa-lightbulb"></i>
+        <i class="fa-solid fa-lightbulb"></i>
+        <i class="fa-solid fa-lightbulb"></i>
+    </div>
+
+    <script>
+        function changeLightbulbColor(bulbArr, colorArr) {
+            const n = bulbArr.length
+            let i = 0
+            
+            setInterval(function () {
+                if (i >= n) i = 0
+
+                bulbArr[i].classList.add(colorArr[i])
+                i++
+
+                setTimeout(function () {
+                    bulbArr[i - 1].classList.remove(colorArr[i - 1])
+                }, 1000)
+            }, 2000)
+        }
+
+
+        const colors = ['red', 'blue', 'yellow', 'green', 'pink']
+        const lightbulbElements = document.querySelectorAll('.light-bulb-wrapper i')
+
+     
+        changeLightbulbColor(lightbulbElements, colors)
+
+
+        
+    
+    </script>
+</body>
+
+</html>

@@ -532,8 +532,93 @@
 }
 /* end section-bg-1 */
 
+/* begin testimonials */
+#testimonials h2{
+    font-size: 38px;
+}
 
+.first{
+    display: block;
+    border-right: 1px solid #cecece;
+}
 
+.testim-platform p{
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #071e55;
+}
+
+.testim-rating{
+    margin-bottom: 30px;
+}
+
+.testim-rating i{
+    color: #fdcc28;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 20px 0;
+    background-color: #fff !important;
+    box-shadow: 5px 5px 15px rgb(0 0 0 / 10%);
+}
+
+.collapse {
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.card-body{
+    padding: 20px 25px 5px 25px;
+    border-top: none;
+    border-left: 6px solid #27b36a;
+    font-size: 20px;
+    color: #7c8595;
+    font-style: italic;
+}
+
+.card-header{
+    max-width: 100%;
+    position: relative;
+    padding: 15px 25px;
+    background-color: transparent;
+    border-left: 6px solid #27b36a;
+}
+
+.mb-0{
+    margin-bottom: 0;
+}
+
+.mb-0 .btn{
+    display: flex;
+    border: none;
+    background-color: #fff;
+    align-items: center;
+}
+
+.card-header img {
+    margin-right: 15px;
+    max-width: 65px;
+    border-radius: 50%;
+}
+
+.testim-name{
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: #071e55;
+}
+
+.testim-name span{
+    color: #27b36a;
+}
+/* end testimonials */
 
 
 
