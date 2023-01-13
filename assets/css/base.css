@@ -42,3 +42,23 @@ p{
 .background-color-white{
     background-color: #fff;
 }
+
+.width-100{
+    width: 100%;
+}
+
+.white-text{
+    color: #fff;
+}
+
+.btn-white{
+    line-height: 22px;
+    font-size: 16px;
+    border: 1px solid #e52f37;
+    background-color: #fff;
+    border-radius: 23px 23px;
+    padding: 12px 18px;
+    color: #e52f37;
+    margin-left: 10px;
+    font-weight: 700;
+}

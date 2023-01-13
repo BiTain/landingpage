@@ -1,0 +1,36 @@
+/* Begin Portfolio */
+
+.gallery-insta {
+    padding: 4px;
+    position: relative;
+}
+
+.gallery-insta:hover .eye-wrapper {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.eye-wrapper {
+    background-color: #e52f37;
+    position: absolute;
+    z-index: 2;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+    text-align: center;
+    opacity: 0;
+    transition: all linear 0.25s;
+}
+
+.eye-wrapper i {
+    position: absolute;
+    font-size: 3.6rem;
+    z-index: 3;
+    top: 50%;
+    margin-top: -18px;
+    left: 0%;
+    right: 0%;
+    color: var(--white);
+}
+/* End Portfolio */

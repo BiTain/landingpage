@@ -286,14 +286,14 @@
     padding: 90px 0 100px 0;
 }
 
-.section-about .about-title{
+.about-title{
     font-size: 38px;
     color: #071e55;
     font-weight: 700;
     line-height: 1.2;
 }
 
-.section-about .about-subtitle{
+ .about-subtitle{
     font-size: 18px;
     color: #7c8595;
     line-height: 28px;
@@ -620,6 +620,366 @@
 }
 /* end testimonials */
 
+/* begin portfolio */
+.gallery-insta {
+    padding: 4px;
+    position: relative;
+}
+
+.gallery-insta:hover .eye-wrapper {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.eye-wrapper {
+    background-color: #e52f37;
+    position: absolute;
+    z-index: 2;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+    text-align: center;
+    opacity: 0;
+    transition: all linear 0.25s;
+}
+
+.eye-wrapper i {
+    position: absolute;
+    font-size: 3.6rem;
+    z-index: 3;
+    top: 50%;
+    margin-top: -18px;
+    left: 0%;
+    right: 0%;
+    color: white;
+}
+
+/* end portfolio */
+
+/* begin team */
+.team img{
+    border-radius: 8px 8px 0 0;
+}
+
+.team-item{
+    padding: 2px 25px 30px 25px;
+    background-color: #fff;
+    border: 1px solid #e5efff;
+    border-top: none;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+}
+
+.team-item h3{
+    margin: 20px 0 1px 0!important;
+    color: #454545;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.team-info p{
+    color: #acacac;
+    font-style: italic;
+}
+
+.team-info::after{
+    background: #e52f37;
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    width: 50px;
+    height: 3px;
+    margin-top: -20px;
+}
+/* end team */
+
+/* begin section-bg-2 */
+.section-bg-2 {
+    padding: 120px 0;
+}
+
+.btn-bg-2{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-bg-2 a{
+    margin: 10px 10px;
+    display: inline-block;
+}
+
+.btn-bg-2 .btn-nav{
+    border: 1px solid white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* end section-bg-2 */
+
+/* begin feature */
+.feature-box{
+    margin-top: 40px;
+    display: flex;
+}
+
+.light-green{
+    color: #a9d129;
+}
+
+.light-blue{
+    color: #50a0d2;
+}
+
+.orange{
+    color: #fe9c24;
+}
+
+.dark-blue{
+    color: #3473b8;
+}
+
+.light-red{
+    color: #fc6a3f;
+}
+
+.dark-green{
+    color: #87ac34;
+}
+
+.feature-box i{
+    float: left;
+    font-size: 50px;
+    line-height: 50px;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+}
+
+.feature-box-text{
+    margin-left: 30px;
+    width: 75%;
+}
+
+.feature-box-text h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* end feature */
+
+/* begin pricing */
+.pricing h3{
+    font-size: 32px;
+}
+
+.price-box-white{
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #dde9fb;
+    box-shadow: 0 12px 55px 0 rgb(0 0 0 / 5%);
+    padding: 50px 20px;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 8px 8px;
+}
+
+.price-box-white ul{
+    margin-bottom: 20px;
+}
+
+.price-title{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.price-value{
+    font-family: 'Roboto', sans-serif;
+    color: #292929;
+    font-size: 70px;
+    line-height: 70px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.price-subtitle{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #6a6a6a;
+}
+
+.price-tag a{
+    color: #e52f37;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 23px 23px;
+    padding: 15px 30px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 900;
+    margin: 40px 0 30px 0;
+}
+
+.price-text {
+    color: #6a6a6a;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.price-box-grey{
+    text-align: center;
+    background: #e52f37;
+    border: 2px solid #e52f37;
+    box-shadow: 10px 12px 40px rgb(0 0 0 / 20%);
+    padding: 50px 20px;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 8px 8px;
+}
+
+.price-box-grey li{
+    color: #fff;
+}
+
+.price-box-grey a{
+    color: #e52f37;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 23px 23px;
+    padding: 15px 30px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    margin: 40px 0 30px 0;
+}
+/* end pricing */
+
+/* begin faq */
+.faq-box{
+    margin-top: 30px;
+}
+
+.faq-box h5{
+    margin-bottom: 7px;
+    font-size: 20px;
+}
+
+.faq-box p{
+    color: #7c8595;
+}
+/* end faq */
 
 
+/* begin contact */
+.contact{
+    color: #fff;
+}
 
+.contact-form-wrapper{
+    margin-top: 25px;
+}
+
+.contact-form-wrapper p{
+    color: #fff;
+    border: 1px solid #eee;
+    padding: 25px 25px;
+    font-size: 19px;
+    text-shadow: none;
+    font-style: italic;
+    border-radius: 8px 8px;
+    margin: 15px 0;
+}
+
+.contact-form .contact-input{
+    width: 100%;
+    height: 56px;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 15px;
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: transparent;
+    font-size: 16px;
+    border-radius: 5px 5px;
+}
+
+.contact-form .contact-input::placeholder{
+    color: #fff;
+}
+
+.contact-form select option{
+    background-color: #fff;
+    color: #000 ;
+}
+
+textarea {
+    height: 145px;
+}
+
+.contact-submit{
+    background: #fff;
+    border: none;
+    color: #e52f37;
+    letter-spacing: 1px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    width: 100%;
+    max-width: 300px;
+    padding: 20px 0;
+    text-transform: uppercase;
+    border-radius: 3px 3px;
+}
+/* end contact */
+
+/* begin footer */
+.footer{
+    padding: 40px 0 20px 0;
+    background-color: #fafbfc;
+}
+
+.footer p{
+    margin-bottom: 5px;
+    line-height: 24px;
+    color: #454545;
+}
+
+.footer span{
+    font-weight: bold;
+}
+
+.footer p > a {
+    display: inline-block;
+    font-size: 17px;
+    color: #e52f37;
+    text-decoration: underline;
+}
+
+.footer-social{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px ;
+}
+
+.icon-social{
+    display: flex;
+}
+
+.footer-social i{
+    margin: 0 8px;
+    padding: 0;
+    font-size: 26px!important;
+    line-height: 26px!important;
+}
+/* end footer */

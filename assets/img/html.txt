@@ -1,0 +1,53 @@
+<!-- Section Portfolio -->
+        <section class="portfolio section-white">
+            <div class="container">
+                <div class="text-center" style="margin-bottom: 46px;">
+                    <h2 class="section-title">Our Portfolio</h2>
+                    <p class="section-subtitle">Dicover the latest projects accomplished for my clients.</p>
+                </div>
+
+                <!--begin row-->
+                <div class="row">
+                    <div class="col-4 ">
+                        <div class="gallery-insta">
+                            <img src="./assets/img/gallery1.jpg" class="width-100" alt="pic">
+                            <span class="eye-wrapper"><i class="fa fa-search-plus eye-icon"
+                                    style="font-size: 38px;"></i></span>
+                        </div>
+
+                        <div class="gallery-insta">
+                            <img src="./assets/img/gallery2.jpg" class="width-100" alt="pic">
+                            <span class="eye-wrapper"><i class="fa fa-search-plus eye-icon"
+                                    style="font-size: 38px;"></i></span>
+                        </div>
+
+                    </div>
+
+                    <div class="col-4">
+                        <div class="gallery-insta">
+                            <img src="./assets/img/gallery3.jpg" class="width-100" alt="pic">
+                            <span class="eye-wrapper"><i class="fa fa-search-plus eye-icon"
+                                    style="font-size: 38px;"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="gallery-insta">
+                            <img src="./assets/img/gallery4.jpg" class="width-100" alt="pic">
+                            <span class="eye-wrapper"><i class="fa fa-search-plus eye-icon"
+                                    style="font-size: 38px;"></i></span>
+                        </div>
+
+                        <div class="gallery-insta">
+                            <img src="./assets/img/gallery5.jpg" class="width-100" alt="pic">
+                            <span class="eye-wrapper"><i class="fa fa-search-plus eye-icon"
+                                    style="font-size: 38px;"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <!--end row -->
+
+            </div>
+
+        </section>
+        <!-- End Section Portfolio -->
